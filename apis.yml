@@ -1,0 +1,38 @@
+aid: api-layer
+name: API Layer
+description: >-
+  API Layer is an API marketplace providing curated, production-ready APIs for currency exchange, geolocation, weather, and other common use cases with unified authentication.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Developer Portal
+  - API Marketplace
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/api-layer/refs/heads/main/apis.yml
+created: '2026-03-25'
+modified: '2026-03-25'
+specificationVersion: '0.19'
+apis:
+  - aid: api-layer:api-layer
+    name: API Layer
+    description: >-
+      API Layer is an API marketplace providing curated, production-ready APIs for currency exchange, geolocation, weather, and other common use cases with unified authentication.
+    humanURL: https://apilayer.com
+    tags:
+      - Developer Portal
+      - API Marketplace
+    properties:
+      - type: Documentation
+        url: https://apilayer.com/docs
+      - type: GitHub Repository
+        url: https://github.com/apilayer
+common:
+  - type: Website
+    url: https://apilayer.com
+  - type: Documentation
+    url: https://apilayer.com/docs
+  - type: GitHub Organization
+    url: https://github.com/apilayer
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
