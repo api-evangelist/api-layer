@@ -1,36 +1,57 @@
 aid: api-layer
 name: API Layer
 description: >-
-  API Layer is an API marketplace providing curated, production-ready APIs for currency exchange, geolocation, weather, and other common use cases with unified authentication.
+  APILayer is a curated API marketplace offering over 40,000 production-ready
+  APIs across categories including finance, currency exchange, geolocation,
+  weather, AI, and machine learning, with unified authentication, free tiers,
+  and comprehensive documentation.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Developer Portal
   - API Marketplace
+  - Developer Portal
+  - Currency
+  - Geolocation
+  - Weather
+  - Finance
 url: >-
   https://raw.githubusercontent.com/api-evangelist/api-layer/refs/heads/main/apis.yml
 created: '2026-03-25'
-modified: '2026-03-25'
+modified: '2026-03-26'
 specificationVersion: '0.19'
 apis:
-  - aid: api-layer:api-layer
-    name: API Layer
+  - aid: api-layer:api-layer-marketplace
+    name: APILayer Marketplace
     description: >-
-      API Layer is an API marketplace providing curated, production-ready APIs for currency exchange, geolocation, weather, and other common use cases with unified authentication.
-    humanURL: https://apilayer.com
+      The APILayer Marketplace provides access to thousands of reliable,
+      scalable APIs across categories like AI and machine learning, content,
+      finance, stock data, and more, each with free plans, extensive
+      documentation, and code examples in multiple programming languages.
+    humanURL: https://apilayer.com/
     tags:
-      - Developer Portal
       - API Marketplace
+      - Developer Portal
+      - Integration
     properties:
       - type: Documentation
-        url: https://apilayer.com/docs
-      - type: GitHub Repository
-        url: https://github.com/apilayer
+        url: https://marketplace.apilayer.com/docs
+      - type: Getting Started
+        url: https://marketplace.apilayer.com/docs/article/getting-started
+      - type: Marketplace
+        url: https://marketplace.apilayer.com/
 common:
   - type: Website
-    url: https://apilayer.com
+    url: https://apilayer.com/
+  - type: Marketplace
+    url: https://marketplace.apilayer.com/
   - type: Documentation
-    url: https://apilayer.com/docs
+    url: https://marketplace.apilayer.com/docs
+  - type: Getting Started
+    url: https://marketplace.apilayer.com/docs/article/getting-started
+  - type: Blog
+    url: https://blog.apilayer.com/
+  - type: Provider FAQ
+    url: https://marketplace.apilayer.com/docs/article/provider-faq
   - type: GitHub Organization
     url: https://github.com/apilayer
 maintainers:
