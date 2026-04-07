@@ -9,11 +9,11 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - API Marketplace
-  - Developer Portal
   - Currency
+  - Developer Portal
+  - Finance
   - Geolocation
   - Weather
-  - Finance
 url: >-
   https://raw.githubusercontent.com/api-evangelist/api-layer/refs/heads/main/apis.yml
 created: '2026-03-25'
