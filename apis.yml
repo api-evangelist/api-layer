@@ -1,32 +1,37 @@
 aid: api-layer
 name: API Layer
 description: >-
-  APILayer is a curated API marketplace offering over 40,000 production-ready
-  APIs across categories including finance, currency exchange, geolocation,
-  weather, AI, and machine learning, with unified authentication, free tiers,
-  and comprehensive documentation.
+  APILayer is a curated API marketplace offering 178+ production-ready APIs
+  across categories including finance, currency exchange, geolocation, weather,
+  AI/ML, security, and developer tools, with API key authentication, free tiers,
+  and comprehensive documentation. It hosts well-known APIs including IPstack,
+  Currencylayer, Fixer, Weatherstack, Aviationstack, and Mediastack.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - AI
   - API Marketplace
+  - Aviation
   - Currency
   - Developer Portal
   - Finance
   - Geolocation
+  - Security
   - Weather
 url: >-
   https://raw.githubusercontent.com/api-evangelist/api-layer/refs/heads/main/apis.yml
 created: '2026-03-25'
-modified: '2026-03-26'
+modified: '2026-04-19'
 specificationVersion: '0.19'
 apis:
   - aid: api-layer:api-layer-marketplace
     name: APILayer Marketplace
     description: >-
-      The APILayer Marketplace provides access to thousands of reliable,
-      scalable APIs across categories like AI and machine learning, content,
-      finance, stock data, and more, each with free plans, extensive
-      documentation, and code examples in multiple programming languages.
+      The APILayer Marketplace provides access to 178+ reliable, scalable APIs
+      across categories like AI/ML, finance, geolocation, security, scraping,
+      marketing, communication, and developer tools, each with free plans,
+      extensive documentation, and code examples in multiple programming
+      languages. Authentication is API key-based across all marketplace APIs.
     humanURL: https://apilayer.com/
     tags:
       - API Marketplace
@@ -35,7 +40,7 @@ apis:
     properties:
       - type: Documentation
         url: https://marketplace.apilayer.com/docs
-      - type: Getting Started
+      - type: GettingStarted
         url: https://marketplace.apilayer.com/docs/article/getting-started
       - type: Marketplace
         url: https://marketplace.apilayer.com/
@@ -45,15 +50,67 @@ common:
   - type: Marketplace
     url: https://marketplace.apilayer.com/
   - type: Documentation
-    url: https://marketplace.apilayer.com/docs
-  - type: Getting Started
+    url: https://docs.apilayer.com/
+  - type: GettingStarted
     url: https://marketplace.apilayer.com/docs/article/getting-started
   - type: Blog
     url: https://blog.apilayer.com/
-  - type: Provider FAQ
-    url: https://marketplace.apilayer.com/docs/article/provider-faq
-  - type: GitHub Organization
+  - type: FAQ
+    url: https://marketplace.apilayer.com/docs/article/marketplace-faq
+  - type: GitHubOrganization
     url: https://github.com/apilayer
+  - type: Discord
+    url: https://discord.gg/apilayer
+  - type: Features
+    data:
+      - name: API Marketplace
+        description: Curated catalog of 178+ production-ready APIs across 15+ categories with unified discovery and subscription management.
+      - name: API Key Authentication
+        description: Single API key authentication model unified across all marketplace APIs for simplified integration.
+      - name: Free Tiers
+        description: All marketplace APIs offer free plans allowing developers to get started without upfront cost.
+      - name: Low Latency Infrastructure
+        description: Feature-rich APIs optimized for low latency and high availability for enhanced developer experience.
+      - name: Multi-Language Code Examples
+        description: Comprehensive documentation with code examples in multiple programming languages for every API.
+      - name: Affiliate Program
+        description: Earn commissions by referring developers and businesses to the APILayer marketplace.
+  - type: UseCases
+    data:
+      - name: Content Personalization by Location
+        description: Use IPstack or Positionstack to tailor content and offers based on visitor geolocation.
+      - name: Currency Conversion
+        description: Integrate Currencylayer or Fixer for real-time and historical currency exchange data in financial applications.
+      - name: Fraud Prevention
+        description: Monitor and block suspicious requests using geolocation and IP intelligence APIs.
+      - name: Weather Data Integration
+        description: Embed real-time and forecast weather data into applications using Weatherstack.
+      - name: Aviation Data Access
+        description: Access real-time flight tracking, schedules, and airline data via Aviationstack.
+      - name: Regulatory Compliance Automation
+        description: Automate geographic compliance checks using location intelligence APIs.
+  - type: Integrations
+    data:
+      - name: IPstack
+        description: Geolocation API for IP address intelligence and location detection.
+      - name: Currencylayer
+        description: Real-time and historical currency exchange rate API.
+      - name: Fixer
+        description: Foreign exchange rates and currency conversion API.
+      - name: Weatherstack
+        description: Real-time and historical weather data API.
+      - name: Aviationstack
+        description: Real-time flight tracking, schedules, and airline data API.
+      - name: Mediastack
+        description: Real-time news data aggregation API.
+      - name: Numverify
+        description: Global phone number validation and lookup API.
+      - name: Serpstack
+        description: Real-time Google search results and SERP data API.
+      - name: Pdflayer
+        description: HTML to PDF conversion API.
+      - name: Screenshotlayer
+        description: URL screenshot and website capture API.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
