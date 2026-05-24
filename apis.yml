@@ -113,6 +113,8 @@ common:
         description: HTML to PDF conversion API.
       - name: Screenshotlayer
         description: URL screenshot and website capture API.
+  - type: LLMsTxt
+    url: https://apilayer.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
