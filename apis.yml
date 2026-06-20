@@ -7,7 +7,7 @@ description: >-
   and comprehensive documentation. It hosts well-known APIs including IPstack,
   Currencylayer, Fixer, Weatherstack, Aviationstack, and Mediastack.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - AI
   - API Marketplace
