@@ -45,6 +45,8 @@ apis:
       - type: Marketplace
         url: https://marketplace.apilayer.com/
 common:
+  - type: DomainSecurity
+    url: security/api-layer-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/apilayer
   - type: Website
