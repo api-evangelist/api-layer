@@ -4,9 +4,8 @@
     {
       "source": "https://blog.apilayer.com/feed/",
       "feed_url": "https://blog.apilayer.com/feed/",
-      "title": "",
       "saved": 0,
-      "method": "feed"
+      "error": "no_feed_no_posts"
     },
     {
       "source": "https://marketplace.apilayer.com/docs/article/getting-started",
@@ -17,5 +16,5 @@
     }
   ],
   "post_count": 33,
-  "fetched": "2026-07-11T11:50:51Z"
+  "fetched": "2026-08-01T15:49:00Z"
 }
